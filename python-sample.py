@@ -1,7 +1,8 @@
 def wombat(state, time_left):
     import random
     
-    command = random.choice(['turn', 'move', 'shoot'])
+    # command = random.choice(['turn', 'move', 'shoot'])
+    command = 'turn'
     
     if command == 'turn':
         metadata = {
